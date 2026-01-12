@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full News Page Layout</title>
+  <link rel="stylesheet" href="/css folder/head_foot.css">
+  <link rel="stylesheet" href="/css folder/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    
+    <div class="logo-container">
+      <img src="/images/Logo.jpeg" class="logo-img">
+      <div>
+        <div class="logo-text">राजस्थान चौपड़</div>
+        <div class="logo-tagline">आपकी आवाज़ | आपकी चौपड़</div>
+      </div>
+    </div>
+    
+    <!-- NAV -->
+    <nav class="nav" id="navMenu">
+      <a href="home.html">Home</a>
+      <a href="latest.html">Latest</a>
+      <a href="video.html">Videos</a>
+      <a href="about us.html">About Us</a>
+    </nav>
+    
+    <!-- SEARCH -->
+    <div class="nav-search">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+    
+    <!-- HAMBURGER -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    
+  </header>
+
+  
+  <!-- SIMPLE BREAKING NEWS TICKER -->
+  <div class="breaking-wrapper">
+    
+    <div class="breaking-label">
+      <span class="blink-dot"></span>
+      BREAKING NEWS
+    </div>
+    
+    <div class="marquee-box">
+      <div class="marquee-track">
+        <span class="marquee-content">
+          राजस्थान में ठंड बढ़ी | 📈 Sensex चढ़ा | इंडिया ने जीत दर्ज की | Jaipur बस किराया चर्चा |
+        </span>
+
+        <span class="marquee-content">
+          राजस्थान में ठंड बढ़ी | 📈 Sensex चढ़ा | 🏏 इंडिया ने जीत दर्ज की | Jaipur बस किराया चर्चा |
+        </span>
+        <span class="marquee-content">राजस्थान में ठंड बढ़ी | 📈 Sensex चढ़ा | 🏏 इंडिया ने जीत दर्ज की |
+          
+        </span>
+        <span class="marquee-content"> 🚌 Jaipur: बस किराया बढ़ने की चर्चा | ⚖️ हाईकोर्ट में नई याचिका | 🚨 जोधपुर में
+          चोरी | </span>
+        </div>
+      </div>
+
+    </div>
+    
+    
+  </header>
+  
+  
+  
+  <div div class="layout">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="left-sidebar">
+      <div class="left-card">
+        <img src="/images/left1.avif" alt="image">
+        
+        <a href="/artical/Homeleft1.html" class="left-link">New Kia Seltos vs Tata Sierra: डिजाइन, टेक्नोलॉजी, इंजन और सेफ्टी फीचर्स
+          में किसने मारी बाजी? जानें हर डिटेल
+          2</a>
+        </div>
+        
+      
+      <div class="left-card">
+        <img src="/images/left3.webp">
+        <a href="/artical/Homerleft3.html" class="left-link">Meesho ने किया कमाल! मार्केट में कदम रखते ही शेयर 46% उछले, लिस्टिंग पर
+          ही मालामाल हुए निवेशक</a>
+      </div>
+
+      
+
+      <hr class="left-hr" />
+    </div>
+    
+
+    <!-- MIDDLE CONTENT -->
+    <!-- SLide 1 -->
+    <div class="middle">
+      <div class="slider" id="slider">
+        
+        <div class="slide active" style="background-image:url('/images/news1.jpg');">
+          <div
+          style="position:absolute; left:18px; right:18px; bottom:18px; background:rgba(0,0,0,0.55); padding:12px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); box-shadow:0 6px 18px rgba(0,0,0,0.45); color:#fff;">
+          
+          
+          <div
+          style="position:absolute; left:-10px; top:10px; bottom:10px; width:6px; background:#ffd400; border-radius:4px;">
+        </div>
+
+        
+        <h2
+        style="margin:0 0 6px 0; font-size:20px; font-weight:800; line-height:1.15; text-shadow:0 3px 8px rgba(0,0,0,0.7);">
+        भारत ने मिसाइल परीक्षण
+      </h2>
+      
+      
+      <p style="margin:0; font-size:14px; color:rgba(255,255,255,0.95);">
+        NOTAM जारी किया... 2520 किमी तक नो-फ्लाई जोन
+            </p>
+            
+            
+          </div>
+        </div>
+        <!-- SLide 2 -->
+
+        <div class="slide" style="background-image:url('/images/news2.webp')">
+          <div
+            style="position:absolute; left:18px; right:18px; bottom:18px; background:rgba(0,0,0,0.55); padding:12px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); box-shadow:0 6px 18px rgba(0,0,0,0.45); color:#fff;">
+            
+            
+            <div
+            style="position:absolute; left:-10px; top:10px; bottom:10px; width:6px; background:#ffd400; border-radius:4px;">
+            </div>
+            
+            
+            <h2
+              style="margin:0 0 6px 0; font-size:20px; font-weight:800; line-height:1.15; text-shadow:0 3px 8px rgba(0,0,0,0.7);">
+              Stock Market: अमेरिका में दरों में कटौती
+            </h2>
+
+
+            <p style="margin:0; font-size:14px; color:rgba(255,255,255,0.95);">
+              आज इन स्टॉक्स में दिख सकती है हलचल
+            </p>
+
+            
+          </div>
+        </div>
+        <!-- SLide 3 -->
+        <div class="slide" style="background-image:url('/images/news3.webp')">
+          <div
+            style="position:absolute; left:18px; right:18px; bottom:18px; background:rgba(0,0,0,0.55); padding:12px 14px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); box-shadow:0 6px 18px rgba(0,0,0,0.45); color:#fff;">
+            
+
+            <div
+            style="position:absolute; left:-10px; top:10px; bottom:10px; width:6px; background:#ffd400; border-radius:4px;">
+            </div>
+            
+            
+            <h2
+            style="margin:0 0 6px 0; font-size:20px; font-weight:800; line-height:1.15; text-shadow:0 3px 8px rgba(0,0,0,0.7);">
+              दिल्ली ब्लास्ट के बाद होगी PM मोदी और नेतन्याहू की पहली मुलाकात
+            </h2>
+            
+
+            <p style="margin:0; font-size:14px; color:rgba(255,255,255,0.95);">
+              आतंकवाद पर जता चुके हैं जीरो टोलरेंस; पाकिस्तान में खलबली
+            </p>
+            
+            
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="content-boxes">
+        <div class="box" onclick="showSlide(0)">
+          <img src="images/news1.jpg" alt="news1">
+          <p>भारत ने मिसाइल परीक्षण के लिए NOTAM जारी किया... 2520 किमी तक नो-फ्लाई जोन</p>
+        </div>
+        <div class="box" onclick="showSlide(1)">
+          <img src="images/news2.webp" alt="news2">
+          <p>Stock Market: अमेरिका में दरों में कटौती के बीच शेयर बाजार की सपाट शुरुआत, आज इन स्टॉक्स में दिख सकती है
+            हलचल</p>
+          </div>
+          <div class="box" onclick="showSlide(2)">
+            <img src="images/news3.webp" alt="news3">
+            <p>दिल्ली ब्लास्ट के बाद होगी PM मोदी और नेतन्याहू की पहली मुलाकात, आतंकवाद पर जता चुके हैं जीरो टोलरेंस;
+              पाकिस्तान में खलबली</p>
+            </div>
+          </div>
+    </div>
+
+    
+
+
+    <!-- RIGHT SIDEBAR -->
+    <div class="right-sidebar">
+
+      
+
+      <div class="editor-pick">
+        <div class="anchorimage">
+          <img src="/images/Sanjay_sir.jpeg" height="100%" width="100%">
+        </div>
+        
+        
+        <h3>आज की खबर</h3>
+        
+        
+
+        <div class="pick-item">
+          <a href="/artical/Dailynews.html" class="pick-link" alt="news">
+            <h4>भारत ने नया सैटेलाइट सफलतापूर्वक लॉन्च किया</h4>
+          </a>
+          <small>Dec 12, 2025</small>
+        </div>
+
+        
+        
+
+        <div class="pick-item">
+   <a href="/artical/dailynews1.html" class="pick-link" alt="news">
+            <h4>राजस्थान में नई मेट्रो लाइन की घोषणा</h4>
+          </a>
+          <small>Dec 12, 2025</small>
+        </div>
+        
+        <div class="pick-item">
+         <a href="/artical/dailynews2.html" class="pick-link" alt="news">
+            <h4>सरकार ने डिजिटल पेमेंट पर नई गाइडलाइन जारी की</h4>
+          </a>
+          <small>Dec 12, 2025</small>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+  <!-- Section ----2 -->
+  <!-- HORIZONTAL LINE -->
+  <hr style="width:100%; height:2px; background:#ccc; border:none; margin-bottom:15px;" />
+  
+  <div class="latest-update">
+    <div class="topcat-container">
+      
+      <div class="topcat-title">• मुख्य श्रेणी</div>
+      
+    <div class="topcat-grid">
+      
+      <a href="/rajneeti.html"  class="top-cat">
+        
+        <div class="topcat-card">
+          <img src="/images/Rajneeti.jpg"/>
+          <div class="topcat-content">
+            <div class="topcat-title-text">राजनीति</div>
+            <!-- <div class="topcat-posts">0 Posts</div> -->
+        </div>
+      </div>
+      </a>
+
+      <a href="/eco.html" class="top-cat">
+
+        <div class="topcat-card">
+          <img src="/images/economics.webp" />
+          <div class="topcat-content">
+            <div class="topcat-title-text">अर्थव्यवस्था</div>
+            <!-- <div class="topcat-posts">0 Posts</div> -->
+          </div>
+        </div>
+      </a>
+      
+      <a href="/World.html" class="top-cat">
+        <div class="topcat-card">
+          
+          <img src="/images/World.webp" />
+          <div class="topcat-content">
+            <div class="topcat-title-text">विश्व</div>
+            <!-- <div class="topcat-posts">0 Posts</div> -->
+          </div>
+        </div>
+      </a>
+
+      <a href="/business-market.html" class="top-cat">
+      <div class="topcat-card">
+
+        
+        <img src="/images/Stock-Market-News.png" />
+        <div class="topcat-content">
+          <div class="topcat-title-text">व्यापार & बाजार </div>
+        
+          <!-- <div class="topcat-posts">0 Posts</div> -->
+        </div>
+      </div>
+    </a>
+    
+  </div>
+  </div>
+  <!-- Section ---3 -->
+
+  <br>
+  <br>
+
+  <div class="latest-head">
+      <span class="dot"></span>
+      <h2>Latest Update</h2>
+    </div>
+    
+    <div class="latest-grid">
+      
+      <a href="/artical/Homelatestupdate.html" class="latest-card">
+        <img src="/images/latest1.avif" alt=" latest news" >
+        <div class="latest-content">
+          <h3>बिहार के बाद बीजेपी का मिशन बंगाल... नितिन नबीन बोले- बंगाल से केरल तक लहराएगा भगवा
+बिहार में बड़ी जीत के बाद भारतीय जनता पार्टी अब पूर्वी और दक्षिणी ../h3>
+          <p>⏱ 4 Min Read</p>
+        </div>
+      </a>
+      
+      <a href="/artical/Homelatestupdate2.html" class="latest-card">
+        <img src="/images/latest2.avif" alt=" latest news" >
+        <div class="latest-content">
+          <h3>कोट-पैंट और हैट पहनकर स्टाइल में घूम रहे थे युवक, तालिबान ने पकड़कर दे दी सजा </h3>
+          <p>⏱ 4 Min Read</p>
+        </div>
+      </a>
+      
+      <a href="/artical/Homelatestupdate3.html" class="latest-card">
+        <img src="/images/latest3 (2).avif" alt=" latest news" >
+        <div class="latest-content">
+          <h3>US से आई एक खबर, तो बदला बाजार का मूड... रेड से अचानक ग्रीन में आए सेंसेक्स-निफ्टी</h3>
+          <p>⏱ 4 Min Read</p>
+        </div>
+      </a>
+      
+      <a href="/artical/Homelatestupdate4.html" class="latest-card">
+        <img src="/images/latest4.webp" alt=" latest news" >
+        <div class="latest-content">
+          <h3>हाईकोर्ट को फिर मिली बम से उड़ाने की धमकी:सुनवाई स्थगित, कड़ी सुरक्षा के बीच हाईकोर्ट बार इलेक्शन को लेकर
+            वोटिंग जारी - Jaipur</h3>
+            <p>⏱ 4 Min Read</p>
+          </div>
+        </a>
+        
+      <a href="/artical/Homelatestupdate5.html" class="latest-card">
+        <img src="/images/latest5.webp" alt=" latest news" >
+        <div class="latest-content">
+          <h3>इंडिगो की जयपुर से दिल्ली और चेन्नई की फ्लाइट कैंसिल:स्पाइसजेट की दुबई इंटरनेशनल फ्लाइट 3 घंटे लेट, परेशान
+            हो रहे पैसेंजर्स</h3>
+          <p>⏱ 4 Min Read</p>
+        </div>
+      </a>
+      
+      <a href="/artical/Homelatestupdate6.html" class="latest-card">
+        <img src="/images/latest 6.jpg" alt=" latest news" >
+        <div class="latest-content">
+          <h3>यशवी शर्मा बनीं ‘स्टेक वॉक मिस इंडिया इंटरनेशनल-2025’:फैशन, क्रिएटिविटी और ग्लैमर के रंगों से सजा ब्यूटी
+            पेजेंट; डिजाइनर फैशन कलेक्शन किए प्रस्तुत</h3>
+            <p>⏱ 4 Min Read</p>
+          </div>
+      </a>
+      <a href="/artical/Homelatestupdate7.html" class="latest-card">
+        <img src="/images/latest7.jpg" alt=" latest news" >
+        <div class="latest-content">
+          <h3>राजस्थान में सर्दी तेज हुई, पारा 3 डिग्री त​क गिरा​:20 से ज्यादा शहरों का तापमान 10 डिग्री से नीचे दर्ज;
+            12 दिसंबर से मिलेगी मामूली राहत</h3>
+            <p>⏱ 4 Min Read</p>
+          </div>
+        </a>
+        <a href="/artical/Homelatestupdate8.html" class="latest-card">
+          <img src="/images/latest8.webp" alt=" latest news" >
+          <div class="latest-content">
+          <h3>क्या गिल की जगह सैमसन को मौका मिलेगा:शुभमन पिछली 16 पारियों में फिफ्टी नहीं लगा सके; साउथ अफ्रीका से दूसरा
+            टी-20 आज</h3>
+          <p>⏱ 4 Min Read</p>
+        </div>
+      </a>
+
+    </div>
+    
+  </div>
+  
+  
+  <!-- FOOTER -->
+  <footer class="footer">
+    
+    <div class="footer-top">
+      <h1 class="footer-logo">राजस्थान चौपड़</h1>
+    </div>
+    
+    <hr class="footer-line">
+
+    <div class="footer-grid">
+      
+      
+      <div class="footer-col social">
+        <h4>FOLLOW US ON :</h4>
+        <div class="social-box">
+          <div class="socials">
+            <a href="https://instagram.com/rajasthanchaupad"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://facebook.com/profile.php?id=61575113135915"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="https://x.com/Rajchaupad"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+            <a href="http://www.youtube.com/@rajchaupad"><i class="fa-brands fa-youtube"></i> Youtube</a>
+            <a href="https://whatsapp.com/channel/0029Vb76kAh0wajmOVb3Je35"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="footer-col">
+        <h4>Links</h4>
+        <a href="home.html">Home</a>
+        <a href="latest.html">Latest</a>
+        <a href="video.html">Video</a>
+         <a href="/about us.html">About us</a>
+      </div>
+      
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <a href="rajneeti.html">Politics</a>
+          <a href="business-market.html">Business</a>
+          <a href="eco.html">Economics</a>
+          <a href="World.html">World</a>
+        </div>
+    </div>
+  </footer>
+  
+    <script src="/java script/home.js"></script>
+
+</body>
+
+</html>
